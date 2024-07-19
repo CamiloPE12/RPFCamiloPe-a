@@ -1,0 +1,226 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$dark-color: #343a40;
+$light-color: #f8f9fa;
+$fluorescent-green: #39ff14; // Color verde fluorescente
+
+// Estilos para los botones
+.btn-fluorescent-green {
+  background-color: $fluorescent-green !important;
+  border-color: $fluorescent-green !important;
+  color: $dark-color !important;
+
+  &:hover {
+    background-color: darken($fluorescent-green, 10%) !important;
+    border-color: darken($fluorescent-green, 10%) !important;
+    color: $light-color !important;
+  }
+}
+
+// Estilos para la barra de navegación
+.navbar {
+  background-color: $dark-color;
+
+  .nav-link {
+    color: $light-color;
+    &:hover {
+      color: $primary-color;
+    }
+    &.active {
+      color: white;
+    }
+  }
+
+  // Centrar los elementos de la navbar
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+// Estilos globales
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container.flex-grow-1 {
+  flex: 1;
+}
+
+// Contenido Principal
+.container {
+  h1 {
+    color: $fluorescent-green; /* Color verde fluorescente para h2 */
+    text-align: center;
+    margin-bottom: 30px;
+    animation: float 3s ease-in-out infinite;
+  }
+  h2 {
+    color: $fluorescent-green; /* Color verde fluorescente para h2 */
+    margin-bottom: 30px;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  p {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .card {
+    border: 1px solid $light-color;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      color: black; /* Color negro para los títulos de las cartas */
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: $secondary-color;
+    }
+  }
+
+  .hover-grow {
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+// Estilos específicos para la página de ubicación
+.ubicacion {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+
+  h1 {
+    color: $fluorescent-green; /* Color verde fluorescente */
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $secondary-color;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+
+  .location-image {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+// Footer
+footer {
+  background-color: $dark-color;
+  color: $light-color;
+  padding: 20px 0;
+  text-align: center;
+}
+
+body {
+  background: url('https://source.unsplash.com/1600x900/?gaming,background') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-fluorescent-green {
+  background-color: #39ff14;
+  border-color: #39ff14;
+  color: #000;
+}
+.btn-fluorescent-green:hover {
+  background-color: #32e12d;
+  border-color: #32e12d;
+  color: #000;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.embed-responsive iframe {
+  border-radius: 12px;
+}
+.section-title {
+  border-bottom: 2px solid #39ff14;
+  padding-bottom: 10px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn-fluorescent-green {
+    background-color: #39ff14;
+    border-color: #39ff14;
+    color: #000;
+}
+.btn-fluorescent-green:hover {
+    background-color: #32e12d;
+    border-color: #32e12d;
+    color: #000;
+}
+.section-title {
+    border-bottom: 2px solid #39ff14;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.testimonial {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.testimonial blockquote {
+    border-left: 5px solid #39ff14;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.btn-fluorescent-green {
+    background-color: #39ff14;
+    border-color: #39ff14;
+    color: #000;
+}
+.btn-fluorescent-green:hover {
+    background-color: #32e12d;
+    border-color: #32e12d;
+    color: #000;
+}
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #39ff14;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}
