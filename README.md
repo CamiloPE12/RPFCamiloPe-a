@@ -49,23 +49,28 @@ SASS se utiliza para extender las capacidades de CSS mediante características c
 Se han implementado animaciones CSS para mejorar la experiencia del usuario en la página web. Por ejemplo, el título principal y otros elementos utilizan la animación de flotación (`float`) que proporciona un efecto visual atractivo y dinámico.
 
 ## Vista #1
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/b95cc74d-a481-4a7d-a8d5-cb233882179d)
+![image](https://github.com/user-attachments/assets/f643fb74-3818-47ac-9747-56f17e04c90b)
+
 
 
 ## Vista #2
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/b826bd47-cee1-4c27-90d5-166f9ede613d)
+![image](https://github.com/user-attachments/assets/1ec6725c-0966-40ca-8c9d-45e3b7f7057e)
+
 
 
 ## Vista #3
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/6f45f094-ef4e-4b13-a7e5-91ea81c0502b)
+![image](https://github.com/user-attachments/assets/6f5a9826-1a9e-4798-b121-b2a1cdf3a063)
+
 
 
 ## Vista #4
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/b47028f5-3c97-4827-9c89-97ff3705b83f)
+![image](https://github.com/user-attachments/assets/dfc2fb80-08c8-4e37-b60a-f2cddc853512)
 
 
 ## Vista #5
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/15b719c0-8c1b-46db-b123-dcc1711a6f48)
+![image](https://github.com/user-attachments/assets/7238b194-955b-4751-b9b8-ee7e9cc5cdbd)
+
 
 ## Vista #6
-![image](https://github.com/CamiloPE12/PFCamiloPe-a/assets/110743852/0e9ad604-03ca-4813-97ea-12fa00b67591)
+![image](https://github.com/user-attachments/assets/6e349f46-5d0b-476d-98b5-870c79c40349)
+
